@@ -61,7 +61,7 @@ The project explores how RAG and LLM-based capabilities can be integrated into a
 
 ## System Architecture & Application Workflow
 
-The application follows an end-to-end architecture connecting the user interface, backend services, learning workflows, retrieval layer, and LLM-powered functionality.
+The application connects the user interface, backend services, learning workflows, and AI pipeline, with retrieval and LLM generation used for context-aware AI features.
 
 ```text
                          ┌─────────────────────────┐
@@ -120,7 +120,7 @@ The application follows an end-to-end architecture connecting the user interface
               │       Context-Aware Output     │
               ├────────────────────────────────┤
               │ • Academic Q&A                 │
-              │ • Lecture Summaries             │
+              │ • Lecture Summaries            │
               │ • Custom Study Notes            │
               │ • Assignment Explanations       │
               │ • Programming Guidance          │
